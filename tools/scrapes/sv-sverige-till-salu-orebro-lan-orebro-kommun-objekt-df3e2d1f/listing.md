@@ -1,0 +1,355 @@
+# Attersta 605, Almbro, Örebro - Fastighetsbyrån
+
+Source: https://www.fastighetsbyran.com/sv/sverige/till-salu/orebro-lan/orebro-kommun/objekt/?objektID=3383308&utm_source=booli&utm_medium=referral&utm_campaign=till-salu&utm_content=attersta%2B605
+Fetched: 2026-06-07T06:10:58.580944+00:00
+
+## Kort beskrivning
+
+Gård i Almbro, Örebro till salu. Antal rum 4 rum varav 3 sovrum. 3 495 000 kr. Boarea/Biarea 143/0 kvm
+
+## Brödtext
+
+Gård i Almbro, Örebro till salu. Antal rum 4 rum varav 3 sovrum. 3 495 000 kr. Boarea/Biarea 143/0 kvm
+
+Översikt
+
+Bilder
+
+Planritning
+
+Beskrivning
+
+Karta
+
+Byggår
+
+Typ
+
+Markareal
+
+Upplåtelseform
+
+Antal rum
+
+Boarea/Biarea
+
+Pris
+
+Se alla 23 bilder
+
+Dela på Facebook
+
+Attersta 605
+
+Webbnr
+
+Huvudbyggnad
+
+Byggnadstyp
+
+Byggnadsår
+
+Grundläggning
+
+Stomme
+
+Fasad
+
+Fönster
+
+Bjälklag
+
+Tak
+
+Uppvärmning
+
+Energiprestanda
+
+Energiklass
+
+Ekonomi
+
+Driftkostnad
+
+Total driftskostnad
+
+Elförbrukning
+
+Nätleverantör
+
+Renhållning
+
+Väg och samfällighet
+
+Sotning
+
+Försäkring
+
+Tillkommer
+
+Fastighetsavgift/-skatt
+
+Kommentar
+
+Beskrivning tomtmark
+
+Beteckning
+
+Taxeringskod
+
+Taxeringsvärde
+
+Taxeringsvärde för byggnad
+
+Taxeringsår
+
+Pantbrev totalt
+
+Servitut etc
+
+Arealer
+
+Skog
+
+Övrigt
+
+Tillträde
+
+Dokument & länkar
+
+Vill du veta vad din bostad är värd?
+
+Hjälp och kontakt
+
+Fastighetsbyrån
+
+Hitta snabbt
+
+Säkerhet och integritet
+
+Din webbläsare är gammal, för full funktionalitet av vår webb behöver du
+
+din webbläsare.
+
+Gå till innehåll
+
+sök
+
+Logga in
+
+stäng meny
+
+Sälja
+
+Köpa
+
+Välj marknad och språk
+
+Sverige
+
+Spanien
+
+Portugal
+
+© Swedbank Fastighetsbyrå AB
+
+Almbro, Örebro
+
+Utvärdera med Visningshjälpen
+
+1909
+
+Gård
+
+7,6 ha (75 940 kvm) , Skog, åker, trädgårdstomt
+
+Friköpt
+
+4 rum varav 3 sovrum
+
+143/0 kvm
+
+3 495 000 kr
+
+Gård 10 minuter från Örebro
+
+Här erbjuds en gård med stora möjligheter – med stall, verkstad, skog och ett 1-plans bostadshus. Bostaden har sitt ursprung i en tidigare tvättstuga som byggdes om till bostad 1976 och byggdes sedan till 2009. Tomten har en gång varit utformad som en vacker, parkliknande trädgård och här finns både en insynsskyddad uteplats samt en takad altan. På fastigheten finns även fler uthus där två har rasat, medan stallet är bevarat. Som en extra fördel gränsar ån till fastigheten och erbjuder möjlighet...
+
+Ansvarig mäklare
+
+Fastighetsmäklare
+
+070-349 59 08
+
+Skicka e-post
+
+Örebro
+
+Bevaka slutpris
+
+Hej!
+
+Vi hjälper dig lyckas med ditt livs största affär, vad är du intresserad av?
+
+Värdera min egen bostad
+
+Visa planritning
+
+3110-58814
+
+Här erbjuds en gård med stora möjligheter – med stall, verkstad, skog och ett 1-plans bostadshus. Bostaden har sitt ursprung i en tidigare tvättstuga som byggdes om till bostad 1976 och byggdes sedan till 2009. Tomten har en gång varit utformad som en vacker, parkliknande trädgård och här finns både en insynsskyddad uteplats samt en takad altan. På fastigheten finns även fler uthus där två har rasat, medan stallet är bevarat. Som en extra fördel gränsar ån till fastigheten och erbjuder möjlighet till kräftfiske. Välkommen att skapa ditt eget drömboende!
+
+Här erbjuds en gård med stora möjligheter – med stall, verkstad, skog och ett 1-plans bostadshus. Bostaden har sitt ursprung i en tidigare tvättstuga som byggdes om till bostad 1976 och byggdes sedan till 2009.
+
+Tomten har en gång varit utformad som en vacker, parkliknande trädgård och här finns både en insynsskyddad uteplats samt en takad altan.
+
+På fastigheten finns även fler uthus där två har rasat, medan stallet är bevarat.
+
+9 boxar, varav 3 mindre och 6 större. Vatten indraget samt sadelkammare. Som en extra fördel gränsar ån till fastigheten och erbjuder möjlighet till kräftfiske.
+
+Välkommen att skapa ditt eget drömboende!
+
+HALL:
+
+Plats för ytterkläder. Två garderober.
+
+BADRUM:
+
+Dubbla handfat, wc, duschplats. Fönster.
+
+FD WC:
+
+Idag står tvättmaskinen här.
+
+VARDAGSRUM:
+
+Trägolv och öppen spis. Öppet till nock. Luftvärmepump.
+
+SOVRUM:
+
+Tre garderober.
+
+Fyra garderober.
+
+Garderober.
+
+KÖK:
+
+Kyl-frys, spis, fläkt. Utgång till altan.
+
+Visa beskrivning
+
+1 1/2-plans hus
+
+1909 Ombyggt 1976
+
+Torpargrund/betongplatta
+
+Trä/timmer
+
+Trä
+
+2 glasfönster isoler, 2-glas kopplade
+
+Betongpannor
+
+Direkt-el + luftvärmepump
+
+Enskilt vatten året om borrad brunn ca 90 m. Enskilt avlopp 3-kammarbrunn. Infiltration.
+
+167 kWh/kvm och år
+
+45 070 kr/år
+
+Baserat på 1 person i hushållet
+
+11 929 kWh/år
+
+E-on
+
+32 140 kr/år
+
+4 476 kr/år
+
+1 500 kr/år
+
+725 kr/år
+
+6 229 kr/år
+
+10 425 kr/år
+
+I uppvärmningen ingår hushållssel.
+
+Attersta 7:7
+
+120
+
+2 452 000 kr
+
+1 432 000 kr
+
+2023
+
+1 242 600 kr
+
+last, avtalsservitut: Vattenledning Mm förmån, officialservitut: Väg I Samfälld Vägmark last, officialservitut: Vattentäkt Vattenledning
+
+3 ha, Lövskog med inslag av gran. Gallring skedde ca 2005.
+
+Flexibelt tillträde
+
+Läs mer om tilläggstjänster
+
+Kerstin Fröjdh
+
+Jag eller någon av mina kollegor som är expert på ditt område kontaktar dig gärna för en värdering. Det kostar såklart ingenting och vi kan också starta en värdebevakning.
+
+Värderingsförfrågan
+
+## Bilder
+
+1. https://media.fastighetsbyran.se/49321976.jpg  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-01.jpg
+2. https://www.fastighetsbyran.com/assets/fastighetsbyran_logo-Chl59VBD.svg  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-02.jpg
+3. https://www.fastighetsbyran.com/assets/Fastighetsbyran_Logotyp_Neg_RGB-sx-zQIvw.png  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-03.png
+4. https://media.fastighetsbyran.se/49321976.jpg?Bredd=1680  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-04.jpg
+5. https://media.fastighetsbyran.se/49321976.jpg?Bredd=992  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-05.jpg
+6. https://media.fastighetsbyran.se/45990569.jpg?Bredd=992  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-06.jpg
+7. https://images.ctfassets.net/feu9c6z0ptit/7C8EcCrBcKXJtLiFB5Utk3/0142a5f8a094c55c00346bdc81dec689/Orebro-vy.jpg?w=100&fm=webp  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-07.webp
+8. https://media.fastighetsbyran.se/49321976.jpg?Bredd=1000  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-08.jpg
+9. https://media.fastighetsbyran.se/49321976.jpg?Bredd=800  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-09.jpg
+10. https://media.fastighetsbyran.se/49321973.jpg?Bredd=500  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-10.jpg
+11. https://media.fastighetsbyran.se/49321986.jpg?Bredd=500  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-11.jpg
+12. https://media.fastighetsbyran.se/49321972.jpg?Bredd=1680  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-12.jpg
+13. https://media.fastighetsbyran.se/49321972.jpg?Bredd=500  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-13.jpg
+14. https://media.fastighetsbyran.se/49321970.jpg?Bredd=1680  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-14.jpg
+15. https://media.fastighetsbyran.se/49321970.jpg?Bredd=500  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-15.jpg
+16. https://media.fastighetsbyran.se/49467373.jpg?Bredd=1680  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-16.jpg
+17. https://media.fastighetsbyran.se/49467373.jpg?Bredd=992  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-17.jpg
+18. https://media.fastighetsbyran.se/49467372.jpg?Bredd=1680  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-18.jpg
+19. https://media.fastighetsbyran.se/49467372.jpg?Bredd=992  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-19.jpg
+20. https://www.fastighetsbyran.com/assets/e-BGnK2eng.png  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-20.png
+21. https://images.ctfassets.net/feu9c6z0ptit/2LUDMSCyREdqDOiFEI8qpp/0bb112068b210f24d4a8ffdacb49c837/facebook-icon.png?w=200&fm=webp  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-21.webp
+22. https://images.ctfassets.net/feu9c6z0ptit/yYVkVCaQm0NB8hqNMBhzn/5e632e59394fa52ca9cf7d28196d178c/instagram-icon.png?w=200&fm=webp  
+Local file: C:\Users\WOWMASKIN\Documents\ActyWeb\tools\scrapes\sv-sverige-till-salu-orebro-lan-orebro-kommun-objekt-df3e2d1f\images\image-22.webp

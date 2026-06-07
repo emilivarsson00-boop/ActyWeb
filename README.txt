@@ -1,72 +1,202 @@
-ActyWeb
-Små hemsidor för små företag
+# ActyWeb intern README
 
-Det här är den statiska hemsidan för ActyWeb. Den är byggd med vanlig HTML, CSS och JavaScript och kan publiceras på GitHub Pages eller på ett vanligt webbhotell.
+Denna README är för utvecklare och framtida underhåll. Den är inte skriven för kunder.
 
-Filerna
+## Projektöversikt
 
-- index.html innehåller sidans text och struktur.
-- style.css innehåller design, färger, layout och mobilanpassning.
-- script.js innehåller liten funktionalitet för mobilmeny och årtal i footern.
-- assets/images/ innehåller Acty-bilden, ikonversion och bildfiler.
-- demos/ är tänkt som plats för demosidor.
+- ActyWeb bygger enkla hemsidor åt lokala småföretag.
+- Fokus är statiska hemsidor.
+- Kunden ska alltid kunna få filerna.
+- Sidorna ska vara enkla att hosta, flytta och underhålla.
 
-Öppna sidan lokalt
+## Grundprinciper
 
-Dubbelklicka på index.html. Sidan öppnas då i webbläsaren.
+- Kunden äger hemsidan.
+- Kunden ska inte låsas in.
+- Kunden ska kunna flytta sidan till valfri leverantör.
+- ActyWeb ska inte bli ett webbhotell.
+- ActyWeb ska inte kräva konto, backend eller specialmiljö för enkla kundsidor.
 
-Publicera på GitHub Pages
+## Hosting
 
-1. Lägg filerna i ett GitHub-repository.
-2. Gå till repositoryts Settings.
-3. Öppna Pages.
-4. Välj branch main och root-mappen.
-5. Spara. GitHub visar en länk när sidan är publicerad.
+Nuvarande arkitektur:
 
-Publicera på vanligt webbhotell
+```text
+Besökare
+→ Cloudflare
+→ GitHub Pages
+→ Statiska filer
+```
 
-Ladda upp index.html, style.css, script.js, assets och demos till webbhotellets public_html-, www- eller motsvarande mapp. Webbhotellet visar sedan sidan på domänen.
+Detta projekt ska kunna fungera som statisk site utan backend. Håll rotprojektet kompatibelt med GitHub Pages.
 
-Vad är en domän?
+## Säkerhet
 
-En domän är adressen till sidan, till exempel actyweb.se. Domänavgift betalas normalt direkt till den leverantör där domänen köps.
+Får inte ligga i repot:
 
-Vad är hosting?
+- API-nycklar
+- lösenord
+- .env-filer
+- databaskopplingar
+- SMTP-uppgifter
+- kunddata
+- privata dokument
 
-Hosting är platsen där hemsidans filer ligger så att andra kan öppna sidan på internet. GitHub Pages kan användas gratis för den här typen av statisk sida.
+Lägg inte in personliga tokens, privata kundunderlag eller exportfiler från externa system. Om något sådant behövs i arbetet ska det hanteras utanför repot.
 
-Demo-länkstruktur
+## Framtida backend
 
-- /demos/kilab/
-- /demos/blackrum/
-- /demos/niffes/
-- /demos/hugos/
-- /demos/futura/
+Om backend behövs, använd extern tjänst:
 
-Placeholders att byta innan publicering
+- Cloudflare Workers
+- Supabase
+- Formspree/Web3Forms
+- Render/Railway
 
-- E-postadressen epost@exempel.se
-- Telefonnummer 000-000 00 00
-- Eventuella uppdaterade logotyper eller bildversioner
-- Riktiga länkar till demosidor när de finns
-- Eventuell exakt juridisk/företagsinformation om ActyWeb ska visas
+Ingen backend ska köras från utvecklarens egen dator.
 
-Kort sammanfattning att skicka till kund
+Ingen port forwarding.
 
-ActyWeb bygger färdiga, enkla hemsidor åt lokala småföretag. Själva hemsidan och filerna är gratis om kunden vill hantera allt själv. Om kunden vill ha hjälp med mindre ändringar, publicering och domänkoppling kostar den hjälpen 1499 kr.
+Undvik egen serverdrift om en statisk lösning eller enkel tredjepartstjänst räcker.
 
-Styrkor med sidan
+## Designfilosofi
 
-- Tydligt erbjudande direkt i första vyn.
-- Varm lokal ton utan krångligt webbyråspråk.
-- Mobilanpassad layout.
-- Transparent förklaring av vad som är gratis och vad hjälpen kostar.
-- Enkel struktur som är lätt att bygga vidare på.
+Undvik:
 
-Det kunden kan komplettera med
+- SaaS-känsla
+- startup-design
+- generiska kort
+- överdriven whitespace
+- AI-mallkänsla
 
-- Riktiga kontaktuppgifter.
-- Riktig logotyp om den finns.
-- Fler demosidor.
-- Egna bilder.
-- Eventuella villkor för framtida ändringar.
+Föredra:
+
+- kundens identitet
+- riktiga bilder
+- tydliga telefonnummer
+- praktisk information
+- kort copy
+- tydliga kontaktvägar
+
+Målet är:
+
+> Det här ser ut som vårt företag.
+
+Inte:
+
+> Det här ser ut som en AI-genererad mall.
+
+## KILAB-lärdom
+
+Försök inte göra industriföretag till startup-sidor.
+
+Använd företagets befintliga identitet och tonalitet. Om företaget redan har färger, logotyp, bildspråk eller ett sätt att uttrycka sig ska sidan bygga på det i stället för att ersätta det med en generisk mall.
+
+## Projektstruktur
+
+```text
+/
+├── index.html
+├── style.css
+├── script.js
+├── README.txt
+├── assets/
+│   └── images/
+├── demos/
+│   ├── blackrum/
+│   ├── futura/
+│   ├── hugos/
+│   ├── kilab/
+│   └── niffes/
+```
+
+### Rotfiler
+
+- `index.html` är ActyWebs startsida.
+- `style.css` innehåller layout, färger, typografi och responsiv design för startsidan.
+- `script.js` innehåller enkel klientlogik, till exempel mobilmeny och årtal i footer.
+- `README.txt` är denna interna README.
+
+### assets/
+
+Gemensamma assets för ActyWebs egen startsida.
+
+- `assets/images/actyweb-wordmark-green-transparent.png` används som huvudlogga i navbaren.
+- `assets/images/actyweb-wordmark-green-transparent-icon.png` används som favicon och liten brandmark.
+- `assets/images/actyweb-truck-badge.png` är arbetsmaterial. Den används inte på huvudsidan just nu.
+- `assets/images/actyweb-truck-logo-dark-source.png` används som hero-badge ovanför erbjudanderutan.
+- `assets/images/actyweb-truck-logo-badge-tight.png` är en tidigare crop och används inte just nu.
+- Äldre truck- och mascot-assets finns kvar som arbetsmaterial, men används inte på huvudsidan just nu.
+- `assets/images/actyweb-logo.png` och äldre logo-assets är arbetsmaterial. Undvik att upprepa full-loggan i innehållskort.
+
+Lägg bara generella ActyWeb-assets här. Kundspecifika bilder ska ligga under respektive demo.
+
+### demos/
+
+Varje undermapp är en separat statisk demosida.
+
+Exempel:
+
+- `demos/kilab/`
+- `demos/blackrum/`
+- `demos/niffes/`
+- `demos/hugos/`
+- `demos/futura/`
+
+Varje demo bör kunna fungera fristående med egna:
+
+- `index.html`
+- `style.css`
+- `script.js`
+- `assets/images/`
+- eventuell demo-specifik `README.txt`
+
+Demo-URL:er bör följa enkel struktur:
+
+```text
+/demos/foretagsnamn/
+```
+
+### screenshots/
+
+Screenshots behövs normalt inte för ActyWebs huvudsida vid varje revision.
+
+För kundsidor/demos kan screenshots sparas under respektive demo när sidan börjar bli färdig. Dessa är arbetsmaterial, inte kunddata.
+
+Används för att snabbt kontrollera:
+
+- desktop
+- mobil
+- hero
+- exempel/demos
+- kontakt
+
+## Copyregler
+
+- Skriv kort.
+- Skriv konkret.
+- Undvik webbyråfloskler.
+- Förklara pris och ägande tydligt.
+- Skriv hellre "HEMSIDAN GRATIS" eller "HEMSIDAN ÄR KOSTNADSFRI" än otydliga gratisformuleringar.
+- Var tydlig med att 1499 kr är hjälp med uppsättning, inte priset på hemsidan.
+
+## Teknisk riktning
+
+Standard för ActyWeb-sidor:
+
+- HTML
+- CSS
+- JavaScript
+- statiska filer
+- GitHub Pages-kompatibelt
+
+Undvik om det inte finns ett tydligt behov:
+
+- React
+- Next.js
+- backend
+- databas
+- byggsteg
+- serverberoenden
+
+Prioritet är att kunden ska kunna få en mapp med filer och använda sidan själv.
