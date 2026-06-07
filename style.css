@@ -18,6 +18,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 118px;
 }
 
 body {
@@ -113,6 +114,7 @@ a {
 .section-band {
   width: min(var(--max), calc(100% - 28px));
   margin: 0 auto;
+  scroll-margin-top: 118px;
 }
 
 .hero {
@@ -369,13 +371,37 @@ h3 {
   text-transform: uppercase;
 }
 
+.section-heading .demo-label {
+  color: var(--accent);
+}
+
 .process-section,
 .faq-section {
   width: 100%;
   max-width: none;
-  padding-right: max(14px, calc((100% - var(--max)) / 2));
-  padding-left: max(14px, calc((100% - var(--max)) / 2));
+  padding-right: 0;
+  padding-left: 0;
   background: color-mix(in srgb, var(--bg) 88%, var(--line));
+}
+
+.process-section > *,
+.faq-section > * {
+  width: min(var(--max), calc(100% - 28px));
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.process-section .section-heading,
+.faq-section .section-heading {
+  max-width: none;
+}
+
+.process-section .section-heading h2 {
+  max-width: 860px;
+}
+
+.faq-section .section-heading h2 {
+  max-width: 920px;
 }
 
 .steps {
@@ -385,7 +411,7 @@ h3 {
   gap: 10px;
   max-width: var(--max);
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   list-style: none;
 }
 
@@ -588,24 +614,11 @@ h3 {
   font-weight: 700;
 }
 
-.demo-more {
-  display: inline-flex;
-  align-items: center;
-  min-height: 42px;
-  margin-top: 14px;
-  padding: 10px 14px;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  color: var(--ink);
-  font-weight: 850;
-  text-decoration: none;
-}
-
 .text-button {
   display: inline-flex;
   align-items: center;
   align-self: flex-start;
-  color: var(--ink);
+  color: var(--accent);
 }
 
 .text-button:hover {
