@@ -329,7 +329,7 @@ h3 {
   border: 0;
   border-radius: 0;
   background: transparent;
-  color: var(--ink);
+  color: var(--accent);
   font-size: clamp(1.05rem, 1.5vw, 1.18rem);
   font-weight: 800;
   line-height: 1.4;
@@ -553,7 +553,7 @@ h3 {
 .setup-price strong {
   display: block;
   margin: 0 0 5px;
-  color: var(--ink);
+  color: var(--accent);
   font-size: clamp(1.2rem, 1.8vw, 1.5rem);
   font-weight: 930;
   line-height: 1;
@@ -625,7 +625,7 @@ h3 {
 }
 
 .text-button:hover {
-  color: var(--ink);
+  color: var(--accent);
 }
 
 .faq-list {
@@ -666,8 +666,8 @@ address {
   gap: 8px;
   align-content: center;
   justify-items: start;
-  justify-self: center;
-  padding-top: 26px;
+  justify-self: start;
+  padding-top: 8px;
   font-style: normal;
 }
 
@@ -678,7 +678,7 @@ address span {
   border: 0;
   border-radius: 0;
   background: transparent;
-  color: var(--ink);
+  color: var(--accent);
   font-size: clamp(1.35rem, 2.1vw, 1.75rem);
   font-weight: 800;
   line-height: 1.35;
