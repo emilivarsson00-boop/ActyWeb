@@ -122,7 +122,7 @@ Använd företagets befintliga identitet och tonalitet. Om företaget redan har 
 Gemensamma assets för ActyWebs egen startsida.
 
 - `assets/images/actyweb-wordmark-green-transparent.png` används som huvudlogga i navbaren.
-- `assets/images/actyweb-wordmark-green-transparent-icon.png` används som favicon och liten brandmark.
+- `assets/images/actyweb-logo-dark.png` används som favicon och liten footer-logga.
 - `assets/images/actyweb-truck-badge.png` är arbetsmaterial. Den används inte på huvudsidan just nu.
 - `assets/images/actyweb-truck-logo-dark-source.png` används som hero-badge ovanför erbjudanderutan.
 - `assets/images/actyweb-truck-logo-badge-tight.png` är en tidigare crop och används inte just nu.

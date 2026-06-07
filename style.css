@@ -7,6 +7,7 @@
   --paper-strong: color-mix(in srgb, var(--bg) 94%, var(--ink));
   --muted: color-mix(in srgb, var(--ink) 64%, var(--bg));
   --shadow: 0 14px 28px color-mix(in srgb, var(--ink) 12%, transparent);
+  --rule: 2px solid var(--line);
   --radius: 8px;
   --max: 1080px;
 }
@@ -24,7 +25,8 @@ body {
   background: var(--bg);
   color: var(--ink);
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-  line-height: 1.55;
+  line-height: 1.58;
+  font-size: 17px;
 }
 
 img {
@@ -47,7 +49,7 @@ a {
   width: 100%;
   margin: 0;
   padding: 11px max(18px, calc((100% - var(--max)) / 2));
-  border-bottom: 1px solid var(--line);
+  border-bottom: var(--rule);
   background: color-mix(in srgb, var(--bg) 92%, transparent);
   backdrop-filter: blur(16px);
 }
@@ -119,7 +121,7 @@ a {
   gap: 36px;
   align-items: center;
   min-height: calc(100vh - 58px);
-  padding: 46px 0 48px;
+  padding: 18px 0 66px;
 }
 
 .hero-copy {
@@ -172,8 +174,13 @@ h3 {
 .lead {
   max-width: 660px;
   color: var(--muted);
-  font-size: clamp(1.04rem, 1.55vw, 1.2rem);
-  font-weight: 500;
+  font-size: clamp(1.05rem, 1.5vw, 1.18rem);
+  font-weight: 620;
+  line-height: 1.58;
+}
+
+.lead + .lead {
+  margin-top: -6px;
 }
 
 .hero-actions {
@@ -245,7 +252,7 @@ h3 {
   justify-content: space-between;
   gap: 18px;
   padding: 15px 16px;
-  border-bottom: 1px solid var(--line);
+  border-bottom: var(--rule);
 }
 
 .hero-proof div:last-child {
@@ -257,6 +264,10 @@ h3 {
   font-size: 0.88rem;
   font-weight: 900;
   line-height: 1.2;
+}
+
+.hero-proof strong {
+  white-space: nowrap;
 }
 
 .hero-proof span {
@@ -274,7 +285,7 @@ h3 {
 }
 
 .section-heading.narrow {
-  max-width: 720px;
+  max-width: var(--max);
 }
 
 .section-heading p,
@@ -287,17 +298,37 @@ h3 {
 .faq-list p,
 .site-footer p {
   color: var(--muted);
+  font-size: clamp(1.05rem, 1.5vw, 1.18rem);
+  font-weight: 620;
+  line-height: 1.58;
 }
 
-.intro-section,
-.demo-section {
-  border-top: 1px solid var(--line);
+.intro-section {
+  border-top: var(--rule);
 }
 
 .feature-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
+}
+
+.ownership-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.ownership-list span {
+  display: inline-block;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--ink);
+  font-size: clamp(1.05rem, 1.5vw, 1.18rem);
+  font-weight: 800;
+  line-height: 1.4;
 }
 
 .feature-card,
@@ -316,12 +347,16 @@ h3 {
   padding: 15px 16px;
 }
 
+.demo-card {
+  padding: 12px 13px;
+}
+
 .feature-card {
   border-top: 3px solid var(--accent);
 }
 
 .card-number,
-.demo-card span,
+.demo-label,
 .price-label {
   display: inline-block;
   margin-bottom: 10px;
@@ -344,8 +379,9 @@ h3 {
 .steps {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-rows: 1fr;
   gap: 10px;
-  max-width: 960px;
+  max-width: var(--max);
   padding: 0;
   margin: 0;
   list-style: none;
@@ -356,10 +392,15 @@ h3 {
   grid-template-columns: 38px 1fr;
   gap: 14px;
   align-items: start;
-  padding: 14px;
+  min-height: 126px;
+  padding: 13px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--paper);
+}
+
+.steps h3 {
+  font-weight: 700;
 }
 
 .steps span {
@@ -376,6 +417,9 @@ h3 {
 .steps p {
   margin-bottom: 0;
   color: var(--muted);
+  font-size: clamp(1.05rem, 1.5vw, 1.18rem);
+  font-weight: 620;
+  line-height: 1.58;
 }
 
 .offer-section {
@@ -383,23 +427,46 @@ h3 {
 }
 
 .offer-layout,
-.local-section,
 .contact-card {
   display: grid;
   grid-template-columns: 330px minmax(0, 1fr);
-  gap: 18px;
+  gap: 12px;
   align-items: stretch;
+}
+
+.contact-card {
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.9fr);
+  align-items: center;
+}
+
+.local-section {
+  border-top: var(--rule);
+  border-bottom: var(--rule);
 }
 
 .price-box {
   display: flex;
-  min-height: 100%;
+  min-height: 220px;
   flex-direction: column;
   justify-content: center;
-  padding: 24px;
+  padding: 18px 20px;
   background: var(--ink);
   color: var(--bg);
   box-shadow: var(--shadow);
+}
+
+.free-box {
+  background: var(--ink);
+  color: var(--bg);
+}
+
+.free-box p,
+.free-box .price-label {
+  color: color-mix(in srgb, var(--bg) 78%, transparent);
+}
+
+.free-box strong {
+  color: var(--bg);
 }
 
 .price-box p,
@@ -414,30 +481,56 @@ h3 {
   font-size: clamp(3rem, 5vw, 4.45rem);
   font-weight: 930;
   line-height: 0.95;
+  white-space: nowrap;
 }
 
 .offer-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 7px;
 }
 
 .offer-list div {
-  padding: 15px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 8px 10px;
   border: 1px solid var(--line);
   border-left: 4px solid var(--accent);
   border-radius: var(--radius);
   background: var(--paper-strong);
 }
 
-.local-section {
-  align-items: center;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
+.offer-list h3 {
+  margin-bottom: 4px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.offer-list p {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+  line-height: 1.38;
+}
+
+.offer-list .setup-price {
+  background: var(--paper);
+}
+
+.setup-price strong {
+  display: block;
+  margin: 0 0 5px;
+  color: var(--ink);
+  font-size: clamp(1.2rem, 1.8vw, 1.5rem);
+  font-weight: 930;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .local-copy {
-  max-width: 720px;
+  max-width: 880px;
 }
 
 .local-note {
@@ -483,13 +576,27 @@ h3 {
 
 .demo-card {
   display: flex;
-  min-height: 200px;
+  min-height: 104px;
   flex-direction: column;
   background: var(--paper);
 }
 
-.demo-card p {
+.demo-card h3 {
   flex: 1;
+  font-weight: 700;
+}
+
+.demo-more {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  margin-top: 14px;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  color: var(--ink);
+  font-weight: 850;
+  text-decoration: none;
 }
 
 .text-button {
@@ -506,7 +613,7 @@ h3 {
 .faq-list {
   display: grid;
   gap: 8px;
-  max-width: 880px;
+  max-width: var(--max);
 }
 
 .faq-list details {
@@ -530,27 +637,33 @@ h3 {
 }
 
 .contact-card {
-  padding: 20px 22px;
-  background: var(--paper);
-  box-shadow: var(--shadow);
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
 }
 
 address {
   display: grid;
   gap: 8px;
-  align-content: start;
+  align-content: center;
+  justify-items: start;
+  justify-self: center;
+  padding-top: 26px;
   font-style: normal;
 }
 
 address a,
 address span {
   display: block;
-  padding: 12px 14px;
-  border: 1px solid var(--line);
-  border-radius: 7px;
-  background: var(--paper-strong);
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
   color: var(--ink);
-  font-weight: 850;
+  font-size: clamp(1.35rem, 2.1vw, 1.75rem);
+  font-weight: 800;
+  line-height: 1.35;
   text-decoration: none;
 }
 
@@ -566,7 +679,7 @@ address a:hover {
   width: min(var(--max), calc(100% - 28px));
   margin: 0 auto;
   padding: 18px 0 22px;
-  border-top: 1px solid var(--line);
+  border-top: var(--rule);
 }
 
 .site-footer div {
@@ -575,20 +688,27 @@ address a:hover {
 }
 
 .site-footer img {
-  width: 42px;
-  height: 42px;
-  border-radius: 7px;
-  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  border-radius: 0;
+  object-fit: contain;
 }
 
 .site-footer span {
   color: var(--muted);
+  font-weight: 620;
+}
+
+.site-footer strong {
+  font-weight: 700;
 }
 
 .site-footer p {
-  max-width: 540px;
+  max-width: 720px;
   margin-bottom: 0;
-  font-size: 0.92rem;
+  font-size: 0.86rem;
+  font-weight: 620;
+  line-height: 1.45;
 }
 
 @media (max-width: 1040px) {
@@ -600,7 +720,6 @@ address a:hover {
 @media (max-width: 900px) {
   .hero,
   .offer-layout,
-  .local-section,
   .contact-card {
     grid-template-columns: 1fr;
   }
@@ -640,7 +759,7 @@ address a:hover {
 
   .site-nav a {
     padding: 10px 8px;
-    border-bottom: 1px solid var(--line);
+    border-bottom: var(--rule);
     border-radius: 0;
   }
 
@@ -681,7 +800,12 @@ address a:hover {
   }
 
   .contact-card {
-    padding: 20px;
+    padding: 0;
+  }
+
+  address {
+    justify-self: start;
+    padding-top: 0;
   }
 
   .site-footer {
