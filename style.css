@@ -126,6 +126,7 @@ a {
 
 .hero-copy {
   max-width: 720px;
+  transform: translateY(-24px);
 }
 
 .eyebrow {
@@ -229,6 +230,7 @@ h3 {
   display: grid;
   justify-items: center;
   gap: 0;
+  transform: translateY(-24px);
 }
 
 .hero-badge {
