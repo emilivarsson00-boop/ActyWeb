@@ -18,7 +18,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 118px;
+  scroll-padding-top: 25px;
 }
 
 body {
@@ -114,7 +114,7 @@ a {
 .section-band {
   width: min(var(--max), calc(100% - 28px));
   margin: 0 auto;
-  scroll-margin-top: 118px;
+  scroll-margin-top: 25px;
 }
 
 .hero {
@@ -376,7 +376,7 @@ h3 {
 }
 
 .process-section,
-.faq-section {
+.contact-section {
   width: 100%;
   max-width: none;
   padding-right: 0;
@@ -385,14 +385,13 @@ h3 {
 }
 
 .process-section > *,
-.faq-section > * {
+.contact-section > * {
   width: min(var(--max), calc(100% - 28px));
   margin-right: auto;
   margin-left: auto;
 }
 
-.process-section .section-heading,
-.faq-section .section-heading {
+.process-section .section-heading {
   max-width: none;
 }
 
@@ -402,6 +401,10 @@ h3 {
 
 .faq-section .section-heading h2 {
   max-width: 920px;
+}
+
+.faq-section {
+  background: var(--bg);
 }
 
 .steps {
