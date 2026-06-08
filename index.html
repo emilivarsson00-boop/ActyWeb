@@ -5,16 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="ActyWeb bygger enkla hemsidor åt lokala småföretag som ett hobbyprojekt. Hemsidan och filerna kostar 0 kr, och kunden äger allt."
+      content="ActyWeb bygger enkla hemsidor för lokala småföretag. Du äger hemsidan, filerna och innehållet från dag ett."
     />
-    <title>ActyWeb | Små hemsidor för små företag</title>
+    <meta property="og:title" content="ActyWeb | Hemsidor för lokala småföretag" />
+    <meta
+      property="og:description"
+      content="ActyWeb bygger enkla hemsidor för lokala småföretag. Du äger hemsidan, filerna och innehållet från dag ett."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://actyweb.se/" />
+    <meta property="og:image" content="https://actyweb.se/assets/images/actyweb-truck-gmail-logo-dark-source.png" />
+    <meta property="og:image:width" content="1100" />
+    <meta property="og:image:height" content="963" />
+    <meta property="og:image:alt" content="ActyWeb-logga med liten lastbil" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ActyWeb | Hemsidor för lokala småföretag" />
+    <meta
+      name="twitter:description"
+      content="ActyWeb bygger enkla hemsidor för lokala småföretag. Du äger hemsidan, filerna och innehållet från dag ett."
+    />
+    <meta name="twitter:image" content="https://actyweb.se/assets/images/actyweb-truck-gmail-logo-dark-source.png" />
+    <title>ActyWeb | Hemsidor för lokala småföretag</title>
+    <link rel="canonical" href="https://actyweb.se/" />
     <link rel="icon" href="assets/images/actyweb-logo-dark.png" type="image/png" />
+    <link
+      rel="preload"
+      as="image"
+      href="assets/images/actyweb-truck-logo-dark-360.webp"
+      imagesrcset="assets/images/actyweb-truck-logo-dark-360.webp 360w, assets/images/actyweb-truck-logo-dark-520.webp 520w"
+      imagesizes="(max-width: 720px) 280px, 340px"
+      type="image/webp"
+      fetchpriority="high"
+    />
     <link rel="stylesheet" href="style.css" />
+    <!-- TODO: Add GA4 snippet here after Measurement ID is created -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "ActyWeb",
+        "url": "https://actyweb.se/",
+        "description": "ActyWeb bygger enkla hemsidor för lokala småföretag. Du äger hemsidan, filerna och innehållet från dag ett.",
+        "email": "kontakt@actyweb.se",
+        "serviceType": "Webbdesign och hemsidor för små företag"
+      }
+    </script>
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="ActyWeb startsida">
-        <img src="assets/images/actyweb-wordmark-green-transparent.png" alt="ActyWeb" />
+        <picture>
+          <source srcset="assets/images/actyweb-wordmark-green-380.webp" type="image/webp" />
+          <img src="assets/images/actyweb-wordmark-green-transparent.png" width="1000" height="320" alt="ActyWeb" decoding="async" />
+        </picture>
       </a>
       <button class="nav-toggle" type="button" aria-label="Öppna meny" aria-expanded="false">
         <span></span>
@@ -49,7 +92,22 @@
           </div>
         </div>
         <aside class="hero-side" aria-label="Kort om erbjudandet">
-          <img class="hero-badge" src="assets/images/actyweb-truck-logo-dark-source.png" alt="" />
+          <picture class="hero-badge">
+            <source
+              srcset="assets/images/actyweb-truck-logo-dark-360.webp 360w, assets/images/actyweb-truck-logo-dark-520.webp 520w"
+              sizes="(max-width: 720px) 280px, 340px"
+              type="image/webp"
+            />
+            <img
+              src="assets/images/actyweb-truck-logo-dark-source.png"
+              width="800"
+              height="700"
+              alt=""
+              loading="eager"
+              fetchpriority="high"
+              decoding="async"
+            />
+          </picture>
           <div class="hero-proof">
             <div>
               <span>HEMSIDA + FILER</span>
@@ -271,15 +329,15 @@
 
     <footer class="site-footer">
       <div>
-        <img src="assets/images/actyweb-logo-dark.png" alt="" />
+        <img src="assets/images/actyweb-logo-dark.png" width="121" height="108" alt="" loading="lazy" decoding="async" />
         <strong>ActyWeb</strong>
       </div>
       <p>
-        © <span id="year"></span> ActyWeb. Demosidor är inte officiella företagssidor
+        © <span id="year">2026</span> ActyWeb. Demosidor är inte officiella företagssidor
         förrän företaget godkänt och valt att använda dem.
       </p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </body>
 </html>

@@ -39,6 +39,13 @@ a {
   color: inherit;
 }
 
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -66,6 +73,12 @@ a {
 .brand {
   width: 190px;
   text-decoration: none;
+}
+
+.brand picture {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1000 / 320;
 }
 
 .brand img {
@@ -236,9 +249,15 @@ h3 {
 }
 
 .hero-badge {
+  display: block;
   width: min(92%, 340px);
-  height: auto;
+  aspect-ratio: 800 / 700;
   border-radius: var(--radius);
+}
+
+.hero-badge img {
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 
