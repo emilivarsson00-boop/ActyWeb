@@ -7,9 +7,9 @@
     <link rel="icon" href="assets/images/actyweb-logo-dark.png" type="image/png" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="privacy-page">
     <header class="site-header">
-      <a class="brand" href="index.html#top" aria-label="ActyWeb startsida">
+      <a class="brand" href="index.html" aria-label="ActyWeb startsida">
         <picture>
           <source srcset="assets/images/actyweb-wordmark-green-380.webp" type="image/webp" />
           <img src="assets/images/actyweb-wordmark-green-transparent.png" width="1000" height="320" alt="ActyWeb" decoding="async" />
@@ -27,8 +27,8 @@
       </nav>
     </header>
 
-    <main>
-      <section class="section">
+    <main class="privacy-main">
+      <section class="section privacy-section">
         <div class="section-heading">
           <p class="eyebrow">Integritet</p>
           <h1>Integritetspolicy.</h1>
@@ -42,26 +42,23 @@
             inte Google Analytics innan du har godkänt analyscookies.
           </p>
           <p>
-            Du kan avvisa analyscookies i samtyckesrutan. Ditt val sparas i din webbläsare
-            med localStorage.
+            Du kan avvisa analyscookies i samtyckesrutan. Ditt val sparas i din webbläsare.
           </p>
           <p>
             Frågor om integritet kan skickas till
-            <a href="mailto:kontakt@actyweb.se">kontakt@actyweb.se</a>.
+            <a class="privacy-mail" href="mailto:kontakt@actyweb.se">kontakt@actyweb.se</a>.
           </p>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div>
+      <div class="footer-brand">
         <img src="assets/images/actyweb-logo-dark.png" width="121" height="108" alt="" loading="lazy" decoding="async" />
         <strong>ActyWeb</strong>
       </div>
-      <p>
-        © <span id="year">2026</span> ActyWeb.
-        <a href="privacy.html">Integritetspolicy</a>
-      </p>
+      <a class="footer-policy" href="privacy.html">Integritetspolicy</a>
+      <p>© <span id="year">2026</span> ActyWeb.</p>
     </footer>
 
     <script src="script.js" defer></script>

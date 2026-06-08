@@ -39,7 +39,7 @@ function injectConsentStyles() {
       grid-template-columns: minmax(0, 1fr) auto;
       gap: 14px;
       align-items: center;
-      width: min(960px, calc(100% - 28px));
+      width: min(1080px, calc(100% - 28px));
       margin: 0 auto;
       padding: 14px;
       border: 1px solid #cbd6cf;
@@ -52,10 +52,31 @@ function injectConsentStyles() {
 
     .actyweb-consent p {
       margin: 0;
-      color: color-mix(in srgb, #18201d 64%, #f3f6f2);
+      color: #18201d;
       font-size: 0.95rem;
       font-weight: 620;
       line-height: 1.45;
+    }
+
+    .actyweb-consent a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 36px;
+      padding: 7px 12px;
+      border: 1px solid #cbd6cf;
+      border-radius: 7px;
+      background: transparent;
+      color: #18201d;
+      font-size: 0.95rem;
+      font-weight: 850;
+      text-decoration: none;
+    }
+
+    .actyweb-consent a:hover,
+    .actyweb-consent button[data-consent="declined"]:hover {
+      border-color: #6f7f67;
+      color: #18201d;
     }
 
     .actyweb-consent__actions {
@@ -66,8 +87,8 @@ function injectConsentStyles() {
     }
 
     .actyweb-consent button {
-      min-height: 40px;
-      padding: 9px 13px;
+      min-height: 36px;
+      padding: 7px 12px;
       border: 1px solid #cbd6cf;
       border-radius: 7px;
       background: transparent;
@@ -81,6 +102,17 @@ function injectConsentStyles() {
       border-color: #18201d;
       background: #18201d;
       color: #f3f6f2;
+    }
+
+    .actyweb-consent button[data-consent="accepted"]:hover {
+      border-color: #6f7f67;
+      background: #6f7f67;
+    }
+
+    .actyweb-consent button[data-consent="declined"] {
+      border-color: #cbd6cf;
+      background: transparent;
+      color: #18201d;
     }
 
     .actyweb-consent button:focus-visible {
@@ -100,9 +132,23 @@ function injectConsentStyles() {
       .actyweb-consent button {
         flex: 1;
       }
+
+      .actyweb-consent a {
+        flex: 1;
+      }
     }
   `;
   document.head.appendChild(style);
+}
+
+function getPrivacyPath() {
+  if (window.location.pathname.includes("/demos/")) {
+    return window.location.pathname.includes("/demos/index.html") || window.location.pathname.endsWith("/demos/")
+      ? "../privacy.html"
+      : "../../privacy.html";
+  }
+
+  return "privacy.html";
 }
 
 function showConsentBanner() {
@@ -113,8 +159,9 @@ function showConsentBanner() {
   banner.setAttribute("role", "dialog");
   banner.setAttribute("aria-label", "Samtycke till analyscookies");
   banner.innerHTML = `
-    <p>ActyWeb använder analysverktyg för att förstå hur hemsidan används och förbättra upplevelsen. Genom att fortsätta godkänner du användningen av analyscookies.</p>
+    <p>ActyWeb använder analysverktyg för att förstå hur hemsidan används och förbättra upplevelsen. Du kan godkänna eller avvisa analyscookies.</p>
     <div class="actyweb-consent__actions">
+      <a href="${getPrivacyPath()}">Integritetspolicy</a>
       <button type="button" data-consent="accepted">Godkänn</button>
       <button type="button" data-consent="declined">Avvisa</button>
     </div>
