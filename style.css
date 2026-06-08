@@ -740,6 +740,16 @@ address a:hover {
   font-weight: 700;
 }
 
+.site-footer a {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: var(--ink);
+}
+
 .site-footer p {
   max-width: 720px;
   margin-bottom: 0;
